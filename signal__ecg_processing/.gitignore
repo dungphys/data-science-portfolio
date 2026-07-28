@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# local data / uploaded records
+data/
+*.csv
+*.hea
+*.mat
+*.dat
+
+.streamlit/secrets.toml

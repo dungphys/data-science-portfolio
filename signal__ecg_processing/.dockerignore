@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.git/
+.gitignore
+.pytest_cache/
+*.egg-info/
+
+# don't ship local data or secrets into the image
+data/
+*.csv
+*.hea
+*.mat
+*.dat
+.streamlit/secrets.toml
+
+README.md
+docker-compose.yml
