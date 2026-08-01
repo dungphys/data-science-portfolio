@@ -21,6 +21,8 @@ Each project lives in its own folder and includes:
 - Reproducible environment (`requirements.txt` or `Dockerfile`)
 - Where applicable, a deployed demo (Streamlit)
 
+## Note:
+- ***Claude Sonnet 5*** is used for helping build the structure of the projects
 
 ## Contact
  
