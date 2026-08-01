@@ -6,16 +6,18 @@ and clear communication of results.
 
 ## Projects
  
-| Project | Description | Stack |
-|---|---|---|
-| [ECG Signal Processing](https://github.com/dungphys/data-science-portfolio/tree/main/signal__ecg_processing) | full single-lead ECG pipeline: bandpass + notch filtering, Pan-Tompkins QRS detection, beat segmentation, and time-and frequency-domain HRV feature extraction in a simple Streamlit app  | Python, Streamlit, Docker|
+| Project | Description | Stack | Note |
+|---|---|---|---|
+| [ECG Signal Processing](https://github.com/dungphys/data-science-portfolio/tree/main/signal__ecg_processing) | Full single-lead ECG pipeline: bandpass + notch filtering, Pan-Tompkins QRS detection, beat segmentation, and time-and frequency-domain HRV feature extraction in a simple Streamlit app  | Python, Streamlit, Docker| |
+| [Automobile Market Analytics]() | End-to-end regression project predicting used-vehicle resale price, paired with a business-question-driven market analytics notebook. | Python, pytest, scikit-learn, Docker, Jupyter| *in progress* |
+| []() | | | |
 
 
 
 ## Structure
  
-Each project lives in its own folder (or linked repo) and includes:
-- A project-specific README with problem statement, methodology, and results
+Each project lives in its own folder and includes:
+- A project-specific README
 - Reproducible environment (`requirements.txt` or `Dockerfile`)
 - Where applicable, a deployed demo (Streamlit)
 
