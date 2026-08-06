@@ -2,7 +2,13 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from src.data.loader import SchemaError, clean_data, load_and_clean, load_raw_data, validate_schema
+from src.data.loader import (
+    SchemaError, 
+    clean_data, 
+    load_and_clean, 
+    load_raw_data, 
+    validate_schema
+)
 
 
 def test_load_raw_data_reads_csv(sample_csv_path, raw_sample_df):
