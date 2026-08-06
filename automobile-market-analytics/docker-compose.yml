@@ -1,0 +1,29 @@
+services:
+  eda:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/results
+    command: python scripts/run_eda.py
+
+  train:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./reports:/app/results
+    command: python scripts/run_training.py
+
+  business:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./reports:/app/results
+    command: python scripts/run_business_analysis.py
+
+  test:
+    build: .
+    volumes:
+      - ./reports:/app/results
+    command: pytest

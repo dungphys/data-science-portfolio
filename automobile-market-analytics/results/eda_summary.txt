@@ -1,0 +1,96 @@
+MISSING VALUES
+                   missing_count  missing_pct
+Power_Per_Liter             1626        29.56
+Service_History              855        15.55
+Engine_Size                  844        15.35
+Transmission                 827        15.04
+Accident_History             812        14.76
+Color                        803        14.60
+Horsepower                   800        14.55
+Torque                       799        14.53
+Fuel_Efficiency              794        14.44
+Location                     782        14.22
+Year                           0         0.00
+Fuel_Type                      0         0.00
+Make                           0         0.00
+Model                          0         0.00
+Body_Type                      0         0.00
+Owners                         0         0.00
+Mileage                        0         0.00
+Drivetrain                     0         0.00
+Selling_Price                  0         0.00
+Vehicle_Age                    0         0.00
+Mileage_Per_Year               0         0.00
+Selling_Price_Log              0         0.00
+
+NUMERIC SUMMARY
+                  count           mean           std     min       25%      50%       75%       max
+Year             5500.0    2014.494000      5.789745  2005.0   2009.00   2014.0    2020.0    2024.0
+Engine_Size      4656.0       2.450623      0.843913     0.0      2.00      2.4       3.0       5.7
+Mileage          5500.0  114529.481636  91858.943421   100.0  39112.00  96926.5  172757.5  536731.0
+Horsepower       4700.0     198.236596     55.678165    97.0    160.00    187.0     231.0     434.0
+Torque           4701.0     189.014678     56.631309    77.0    151.00    178.0     219.0     443.0
+Owners           5500.0       2.464000      1.280022     1.0      1.00      2.0       3.0       5.0
+Fuel_Efficiency  4706.0      34.179771     15.085473    10.0     27.00     32.0      37.0     141.0
+Selling_Price    5500.0   12319.873636  12658.478862   500.0   1304.75   8586.0   19097.5   86692.0
+
+CORRELATION WITH SELLING_PRICE
+Year               0.804933
+Mileage           -0.682883
+Owners            -0.669046
+Fuel_Efficiency    0.128593
+Torque             0.075116
+Horsepower         0.064324
+Engine_Size       -0.030062
+
+MEDIAN PRICE BY Make
+                       mean   median  count
+Make                                       
+Mercedes-Benz  20482.828096  16575.0    541
+BMW            19459.024904  15940.0    522
+Audi           19326.272727  15556.5    528
+Chevrolet      11579.742806   8117.5    556
+Ford           10084.564767   7477.0    579
+Honda           9460.481013   6619.0    553
+Volkswagen      9327.112478   6130.0    569
+Toyota          8589.265537   6017.0    531
+Nissan          8240.380074   5836.5    542
+Hyundai         7725.307427   4359.0    579
+
+MEDIAN PRICE BY Body_Type
+                   mean   median  count
+Body_Type                              
+SUV        13615.430633   9773.0   2703
+Truck      12572.311828  10446.0    279
+Sedan      11297.241071   7567.5   2240
+Coupe       8696.932886   6055.0    149
+Hatchback   6569.441860   3201.0    129
+
+MEDIAN PRICE BY Fuel_Type
+                   mean   median  count
+Fuel_Type                              
+Electric   21521.662069  17866.0    145
+Hybrid     16284.366853  14590.0    537
+Diesel     13202.159710  10194.0    551
+Petrol     11394.321303   7370.0   4267
+
+MEDIAN PRICE BY Transmission
+                      mean   median  count
+Transmission                              
+Automatic     13555.223322  10387.5   4142
+Manual         2895.082863    500.0    531
+
+MEDIAN PRICE BY Owners
+                mean   median  count
+Owners                              
+1       25009.002872  22809.0   1741
+2       11096.643411   9824.0   1161
+3        6162.244565   4213.5   1288
+4        2988.161081    500.0    925
+5        1647.812987    500.0    385
+
+MEDIAN PRICE BY Accident_History
+                          mean   median  count
+Accident_History                              
+0.0               16337.673874  14119.0   2775
+1.0                6300.550967   3481.0   1913
