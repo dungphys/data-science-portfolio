@@ -148,9 +148,6 @@ stakeholders. Suggested structure:
 ```bash
 pytest              # or: make test / docker compose run --rm test
 ```
-42 tests cover data cleaning/validation, feature engineering, EDA
-summary functions, model training/evaluation/prediction (including a
-save/load round-trip), and every business-question function. Tests use
-an in-memory synthetic fixture (`tests/conftest.py`) so the suite is
+Tests use an in-memory synthetic fixture (`tests/conftest.py`) so the suite is
 fast, deterministic, and doesn't depend on the real dataset being
 present.
